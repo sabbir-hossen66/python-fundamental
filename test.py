@@ -13,5 +13,7 @@ b = float(input('enter second number: '))
 
 if(choice ==1):
     print(a+b)
+elif (choice != 4):
+    print(a/b)
 else:
     print("Result:", a ** b)
